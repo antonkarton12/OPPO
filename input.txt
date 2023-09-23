@@ -1,0 +1,4 @@
+perv1 1 2 3 56
+vtor2 3 4 2 71
+tret3 7 8 9 2222
+chetyre 2 3 4 555
