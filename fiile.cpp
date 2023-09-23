@@ -5,17 +5,14 @@
 
 using namespace std;
 
-struct fiile x;
-
-fiile readFileData(istream& in) {
-	fiile x;
-	in >> x.name;
-	x.d_create = readDate(in);
-	in >> x.value;
-	return x;
+istream& operator>>(istream& ist, MyFile& file) {
+	ist >> file.name;
+	file.d_create = readDate(ist);
+	ist >> file.value;
+	return ist;
 }
 
-void printFileData(fiile x, ostream& out) {
+void printFileData(MyFile x, ostream& out) {
 	out << "Name of file: " << x.name << endl << "Date of creation: ";
 	PrintDate(x.d_create, out);
 	out << "\nFile value: " << x.value << " bytes\n";

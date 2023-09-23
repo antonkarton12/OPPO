@@ -5,12 +5,12 @@
 
 using namespace std;
 
-struct fiile {
+struct MyFile {
 	string name;
 	Date d_create;
 	int value;
 
 };
 
-fiile readFileData(istream& in/*, ostream& out*/);
-void printFileData(fiile x, ostream& out);
+istream& operator>>(istream& ist, MyFile& file);
+void printFileData(MyFile x, ostream& out);
