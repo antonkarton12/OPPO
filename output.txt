@@ -1,12 +1,12 @@
-1) Name of file: perv1
+Name of file: perv1
 Date of creation: 1 2 3
 File value: 56 bytes
-2) Name of file: vtor2
+Name of file: vtor2
 Date of creation: 3 4 2
 File value: 71 bytes
-3) Name of file: tret3
+Name of file: tret3
 Date of creation: 7 8 9
 File value: 2222 bytes
-4) Name of file: chetyre
+Name of file: chetyre
 Date of creation: 2 3 4
 File value: 555 bytes

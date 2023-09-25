@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 
+
 using namespace std;
 
 struct MyFile {
@@ -13,4 +14,5 @@ struct MyFile {
 };
 
 istream& operator>>(istream& ist, MyFile& file);
-void printFileData(MyFile x, ostream& out);
+ofstream& operator<<(ofstream& out, MyFile x);
+//void printFileData(MyFile x, ostream& out);

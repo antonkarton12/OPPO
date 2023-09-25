@@ -12,6 +12,7 @@ Date readDate(istream& in) {
 	return d1;
 }
 
-void PrintDate(Date d1, ostream& out) {
+ostream& operator<<(ostream &out, Date &d1) {
 	out << d1.day << " " << d1.month << " " << d1.year;
+	return out;
 }

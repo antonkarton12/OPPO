@@ -11,5 +11,4 @@ struct Date {
 };
 
 Date readDate(istream& in);
-void PrintDate(Date d1, ostream& out);
-
+ostream& operator<<(ostream &out, Date &d1);

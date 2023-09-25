@@ -12,8 +12,8 @@ istream& operator>>(istream& ist, MyFile& file) {
 	return ist;
 }
 
-void printFileData(MyFile x, ostream& out) {
-	out << "Name of file: " << x.name << endl << "Date of creation: ";
-	PrintDate(x.d_create, out);
+ofstream& operator<<(ofstream& out, MyFile x) {
+	out << "Name of file: " << x.name << endl << "Date of creation: " << x.d_create;
 	out << "\nFile value: " << x.value << " bytes\n";
+	return out;
 }

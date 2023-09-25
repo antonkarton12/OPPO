@@ -19,11 +19,12 @@ int main() {
 		files.push_back(a1);
 	}
 	n = 0;
+
 	for (const auto& data : files) {
 		n++;
-		out << n << ") ";
+		out << data;
 
-		printFileData(data, out);
+		//printFileData(data, out);
 	}
 	cout << "Files was accepted\n";
 }
