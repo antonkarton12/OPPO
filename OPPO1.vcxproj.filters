@@ -21,7 +21,7 @@
     <ClCompile Include="date.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="fiile.cpp">
+    <ClCompile Include="MyFile.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -37,7 +37,7 @@
     <ClInclude Include="date.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="fiile.h">
+    <ClInclude Include="MyFile.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

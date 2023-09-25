@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="date.cpp" />
-    <ClCompile Include="fiile.cpp" />
+    <ClCompile Include="MyFile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
@@ -137,7 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="date.h" />
-    <ClInclude Include="fiile.h" />
+    <ClInclude Include="MyFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

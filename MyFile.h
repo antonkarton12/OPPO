@@ -15,4 +15,3 @@ struct MyFile {
 
 istream& operator>>(istream& ist, MyFile& file);
 ofstream& operator<<(ofstream& out, MyFile x);
-//void printFileData(MyFile x, ostream& out);

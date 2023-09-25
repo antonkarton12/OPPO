@@ -2,7 +2,7 @@
 #include <vector>
 #include <fstream>
 #include "date.h"
-#include "fiile.h"
+#include "MyFile.h"
 
 
 using namespace std;
@@ -24,7 +24,6 @@ int main() {
 		n++;
 		out << data;
 
-		//printFileData(data, out);
 	}
 	cout << "Files was accepted\n";
 }
